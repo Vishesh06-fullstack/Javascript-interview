@@ -38,3 +38,26 @@ const result = numbers.map((currentValue, index, originalArray) => {
 });
 
 console.log(result);
+
+
+const p1 = {
+    email : "Vishesh",
+    phone : 1234
+}
+
+console.log(result);
+console.log({...p1 , age : 24 , phone : 8948939});
+
+const item = ["Hi" , "By" , "SHy"];
+console.log(item);
+
+console.log([...item , "Vishesh" , "aaaahhh"]);
+
+const arr2 = [...item , "Vishesh" , "aaaahhh" ];
+console.log(arr2[3]);
+
+const res = arr2.map((elem  , idx) => {
+    return elem;
+})
+
+console.log(res);
