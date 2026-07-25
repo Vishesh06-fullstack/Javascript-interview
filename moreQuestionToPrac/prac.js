@@ -85,3 +85,17 @@ const answer = named.filter((passOrNot) => passOrNot.pass ).map((pass) => pass.n
 console.log(answer)
 
 // reduce method
+
+
+const students = [
+  { id: 1, name: "Amit", marks: 85  },
+  { id: 2, name: "Priya", marks: 92 },
+  { id: 3, name: "Rahul", marks: 76 }
+];
+// Tasks:
+
+// Display all student names.
+// Display names in uppercase.
+// Add a grade field (A, B, C) using map().
+// Create a new array containing only names.
+
